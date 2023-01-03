@@ -1,0 +1,10 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://pickups/ice_spells/PickupIce.tscn" type="PackedScene" id=1]
+[ext_resource path="res://rooms/spawners/spawner_pickup.svg" type="Texture" id=2]
+[ext_resource path="res://rooms/spawners/spawner.gd" type="Script" id=3]
+
+[node name="SpawnerPickups" type="Sprite"]
+texture = ExtResource( 2 )
+script = ExtResource( 3 )
+list = [ ExtResource( 1 ) ]

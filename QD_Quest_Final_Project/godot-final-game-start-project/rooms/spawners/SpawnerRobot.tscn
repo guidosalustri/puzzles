@@ -1,0 +1,10 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://rooms/spawners/spawner_robot.svg" type="Texture" id=1]
+[ext_resource path="res://robot/Robot.tscn" type="PackedScene" id=2]
+[ext_resource path="res://rooms/spawners/spawner.gd" type="Script" id=3]
+
+[node name="SpawnerRobot" type="Sprite"]
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+list = [ ExtResource( 2 ) ]
